@@ -1,0 +1,47 @@
+.day {
+  height: 20px;
+  width: 30px;
+  border: 2px solid black;
+  border-style: inset;
+}
+.year {
+  height: 20px;
+  width: 30px;
+  border: 2px solid black;
+  border-style: inset;
+}
+
+.gridContainer {
+  display: flex;
+  align-items: center;
+}
+.gridItem {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  margin-right: 1vw;
+}
+.outer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5vw;
+  margin-top: 2vw;
+}
+.label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+h4 {
+  margin: 2px;
+}
+@media (max-width: 600px) {
+  .outer {
+    flex-flow: column;
+  }
+}

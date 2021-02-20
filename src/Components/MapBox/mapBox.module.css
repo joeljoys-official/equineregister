@@ -1,0 +1,29 @@
+.markerStyle {
+  height: auto;
+  width: 2rem;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  transform: translate(-16px, -24px);
+}
+.popup {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+.Mapbox {
+  width: 65vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .Mapbox {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,62 @@
+.Aside {
+  width: 35vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0 1vw;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  flex-flow: column;
+}
+.imageSpec {
+  height: 20vh;
+}
+.ueln {
+  width: 80%;
+  height: 20px;
+  border: 2px solid black;
+  display: block;
+  white-space: pre;
+}
+.uelnLabel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+}
+
+.uelnLabel:nth-child(1) {
+  margin-top: 0;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.button {
+  color: white;
+  background-color: rgb(0, 103, 96);
+  border: 2px solid transparent;
+  border-style: inset;
+  padding: 0.7rem 4rem;
+  box-sizing: border-box;
+  margin-top: 3vh;
+}
+
+@media (max-width: 600px) {
+  .Aside {
+    width: 100vw;
+  }
+}
+
+.warning {
+  color: white;
+  width: 100%;
+  background-color: red;
+  padding: 2px;
+  box-sizing: border-box;
+}
